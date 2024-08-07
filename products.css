@@ -1,0 +1,159 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Our Products Section */
+.products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.products h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.products p {
+    font-size: 1em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.product-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product-item .price {
+    font-size: 1.1em;
+    color: green;
+}
+
+.product-item .price span {
+    text-decoration: line-through;
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Deal of the Day Section */
+.deal-of-the-day {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.deal-of-the-day h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.deal-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.deal-item img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.deal-details {
+    text-align: left;
+}
+
+.deal-details h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.deal-details .description {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.price {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.current-price {
+    color: green;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown-item span {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: green;
+}
