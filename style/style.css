@@ -151,3 +151,150 @@ nav ul li a {
     margin: 0;
     padding: 10px 0;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.featured-products {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.featured-products h4 {
+    color: #6C757D;
+    font-weight: normal;
+    margin: 0;
+}
+
+.featured-products h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    color: #000;
+}
+
+.featured-products p {
+    color: #6C757D;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #E9E9E9;
+    padding: 20px;
+    text-align: center;
+    width: calc(25% - 30px);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item h2 {
+    font-size: 20px;
+    color: #000;
+    margin: 10px 0;
+}
+
+.product-item .price {
+    color: #6C757D;
+    font-size: 18px;
+}
+
+.product-item .original-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.sale .sale-badge {
+    background-color: #28A745;
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.deal-of-the-day {
+    display: flex;
+    padding: 50px;
+    background-color: #F7F7F7;
+}
+
+.deal-of-the-day img {
+    max-width: 50%;
+    height: auto;
+}
+
+.deal-content {
+    padding: 0 50px;
+}
+
+.deal-content h4 {
+    color: #28A745;
+    font-weight: normal;
+    margin: 0;
+}
+
+.deal-content h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    color: #000;
+}
+
+.deal-content p {
+    color: #6C757D;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.deal-content h2 {
+    font-size: 24px;
+    color: #000;
+    margin: 20px 0;
+}
+
+.deal-content .price {
+    color: #28A745;
+    font-size: 24px;
+}
+
+.deal-content .original-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.countdown {
+    display: flex;
+    gap: 20px;
+}
+
+.time {
+    text-align: center;
+}
+
+.time .number {
+    font-size: 36px;
+    color: #000;
+}
+
+.time .label {
+    color: #6C757D;
+    font-size: 14px;
+}
